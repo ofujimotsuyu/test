@@ -106,4 +106,8 @@ class CafeController extends Controller
 
         return redirect()->back();
     }
+    
+    public function test(){
+        return view('test');
+    }
 }
