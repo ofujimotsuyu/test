@@ -35,5 +35,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('users', 'UsersController@index')->name('users.index');
     Route::get('cafe', 'CafeController@index')->name('cafe.get');
     Route::delete('cafe', 'CafeController@destroy')->name('cafe.destroy');
+    Route::get('test', 'CafeController@test')->name('test');
     
 });
