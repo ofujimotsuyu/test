@@ -95,8 +95,7 @@ class HomeController extends Controller
     }
 
     public function minami(){
-        $minami = $yasashisa + $love;
-        return $minami;
+        return view('minami.minami');
     }
     
     public function zakichan(){
