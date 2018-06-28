@@ -47,4 +47,5 @@
 
 @section('content')
     <!--テスト-->
+    <h1>jitsu</h1>
 @endsection
