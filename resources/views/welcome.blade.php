@@ -21,7 +21,7 @@
             @include('commons.slider')
             <div class="row" id="icon-group">
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://www.ntv.co.jp/zip/"><img class="icon" src="images/icon.png" alt=""></a>
+                <a href="{{ route('page.jitsu') }}"><img class="icon" src="images/icon.png" alt=""></a>
                 <p>Jits-News</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
@@ -49,7 +49,7 @@
             <div class="contents-img">
                 <div class="topimg row">
                     <div class="column col-xs-12 caption">
-                        <a href="http://www.ntv.co.jp/zip/"><span class="text"><p>Jits-News</p></span><img src="images/tara0.jpg"></a>
+                        <a href ="{{ route('page.jitsu') }}"><span class="text"><p>Jits-News</p></span><img src="images/tara0.jpg"></a>
                     </div>
                 </div>
                 <div class="row">
