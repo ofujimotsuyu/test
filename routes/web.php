@@ -31,6 +31,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('edit', 'HomeController@edit')->name('prof.edit');
         Route::post('cafe', 'CafeController@upload')->name('cafe.post');
         Route::get('cafe-add', 'CafeController@cafe')->name('cafe.add');
+        Route::get('megumi', 'HomeController@megumi')->name('megumi');
     });
     Route::get('users', 'UsersController@index')->name('users.index');
     Route::get('cafe', 'CafeController@index')->name('cafe.get');
