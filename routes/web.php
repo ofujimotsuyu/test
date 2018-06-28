@@ -30,13 +30,14 @@ Route::group(['middleware' => 'auth'], function () {
         Route::post('prof', 'ProfController@store')->name('prof.post');
         Route::get('edit', 'HomeController@edit')->name('prof.edit');
         Route::post('cafe', 'CafeController@upload')->name('cafe.post');
-        Route::get('cafe-add', 'CafeController@cafe')->name('cafe.add');
+        Route::get('cafe-add', 'CafeController@cafe')->name('cafe.add');  
     });
     Route::get('users', 'UsersController@index')->name('users.index');
     Route::get('cafe', 'CafeController@index')->name('cafe.get');
     Route::delete('cafe', 'CafeController@destroy')->name('cafe.destroy');
     Route::get('test', 'CafeController@test')->name('test');
-    
-    
+    Route::get('megumi', 'HomeController@megumi')->name('megumi');
     Route::get('jitsu','HomeController@jitsu')->name('page.jitsu');
+    Route::get('minami','HomeController@minami')->name('minami');
+    
 });

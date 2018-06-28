@@ -25,7 +25,7 @@
                 <p>Jits-News</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="{{ route('cafe.get') }}"><img class="icon" src="images/icon1.png" alt=""></a>
+                <a href="{{ route('minami') }}"><img class="icon" src="images/icon1.png" alt=""></a>
                 <p>Cafe-Minami</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
@@ -37,11 +37,11 @@
                 <p>Weather-Funami</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="#"><img class="icon" src="images/icon4.png" alt=""></a>
+                <a href="{{ route('megumi') }}"><img class="icon" src="images/icon4.png" alt=""></a>
                 <p>おジャ魔女メグミ</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="{{ route('test') }}"><img class="icon" src="images/icon5.png" alt=""></a>
+                <a href="{{ route('zakio.get') }}"><img class="icon" src="images/icon5.png" alt=""></a>
                 <p>御富士掲示板</p>
               </div>
             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="row">
                     <div class="column col-xs-12 caption">
-                        <a href="{{ route('cafe.get') }}"><span class="text"><p>Cafe-Minami</p></span><img src="images/tara1.jpg"></a>
+                        <a href="{{ route('minami') }}"><span class="text"><p>Cafe-Minami</p></span><img src="images/tara1.jpg"></a>
                     </div>
                 </div>
                 <div class="row">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <div class="column col-xs-12 caption">
-                        <a href="#"><span class="text"><p>おジャ魔女メグミ</p></span><img src="images/tara2.jpg"></a>
+                        <a href="{{ route('megumi') }}"><span class="text"><p>おジャ魔女メグミ</p></span><img src="images/tara2.jpg"></a>
                     </div>
                 </div>
             </div>
