@@ -80,4 +80,6 @@ class HomeController extends Controller
                 ->withErrors(['file' => '画像がアップロードされていないか不正なデータです。']);
         }
     }
+    public function jitsu
+    return view('jitsu.jitsu')
 }
