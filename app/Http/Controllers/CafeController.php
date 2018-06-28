@@ -64,7 +64,7 @@ class CafeController extends Controller
                 // アップロードされたファイルであること
                 'file',
                 
-                'dimensions:min_width=120,min_height=120,max_width=1000,max_height=1000',
+                'dimensions:min_width=120,min_height=120,max_width=2000,max_height=2000',
             ]
             
         ]);
