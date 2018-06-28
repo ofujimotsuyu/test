@@ -103,7 +103,7 @@ class HomeController extends Controller
     }
     
     public function zakichan(){
-        return view('user.zakichan');
+        return view('zakio.zakichan');
     }
 
 }
