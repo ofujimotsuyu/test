@@ -38,3 +38,4 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('test', 'CafeController@test')->name('test');
     
 });
+Route::get('taka', 'HomeController@_taka');
