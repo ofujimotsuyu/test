@@ -39,5 +39,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('megumi', 'HomeController@megumi')->name('megumi');
     Route::get('jitsu','HomeController@jitsu')->name('page.jitsu');
     Route::get('minami','HomeController@minami')->name('minami');
-    
+    Route::get('zakichan', 'HomeController@zakichan')->name('zakio.get');
 });
