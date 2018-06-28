@@ -38,4 +38,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('cafe', 'CafeController@destroy')->name('cafe.destroy');
     Route::get('test', 'CafeController@test')->name('test');
     
+    Route::get('minami','HomeController@minami')->name('minami');
+    
 });
