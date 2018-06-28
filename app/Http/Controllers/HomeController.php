@@ -90,6 +90,14 @@ class HomeController extends Controller
                 ->withErrors(['file' => '画像がアップロードされていないか不正なデータです。']);
         }
     }
+
+    public function __taka()
+    {
+        return view('taka.taka', [
+            'user' => $user,
+    ]);
+        
+    }
     public function jitsu(){
       return view('jitsu.jitsu');
     }
