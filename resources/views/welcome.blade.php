@@ -54,7 +54,7 @@
                 </div>
                 <div class="row">
                     <div class="column col-xs-12 caption">
-                        <a href="#"><span class="text"><p>Cafe-Minami</p></span><img src="images/tara1.jpg"></a>
+                        <a href="{{ route('cafe.get') }}"><span class="text"><p>Cafe-Minami</p></span><img src="images/tara1.jpg"></a>
                     </div>
                 </div>
                 <div class="row">
