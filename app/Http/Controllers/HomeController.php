@@ -94,12 +94,11 @@ class HomeController extends Controller
       return view('jitsu.jitsu');
     }
 
-    
-
     public function minami(){
         $minami = $yasashisa + $love;
         return $minami;
     }
+    
     public function zakichan(){
         return view('user.zakichan');
     }
