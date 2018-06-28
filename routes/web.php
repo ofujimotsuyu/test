@@ -41,4 +41,4 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('minami','HomeController@minami')->name('minami');
     Route::get('zakichan', 'HomeController@zakichan')->name('zakio.get');
 });
-Route::get('taka', 'HomeController@taka');
+Route::get('taka', 'HomeController@taka')->name('taka.taka');

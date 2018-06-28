@@ -33,7 +33,7 @@
                 <p>Yunoki-Sports</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="#"><img class="icon" src="images/icon3.png" alt=""></a>
+                <a href="{{ route('taka.taka') }}"><img class="icon" src="images/icon3.png" alt=""></a>
                 <p>Weather-Funami</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
@@ -64,7 +64,7 @@
                 </div>
                 <div class="row">
                     <div class="column col-xs-12 caption">
-                        <a href="#"><span class="text"><p>Weather-Funami</p></span><img src="images/tara4.jpg"></a>
+                        <a href="{{ route('taka.taka') }}"><span class="text"><p>Weather-Funami</p></span><img src="images/tara4.jpg"></a>
                     </div>
                 </div>
                 <div class="row">
