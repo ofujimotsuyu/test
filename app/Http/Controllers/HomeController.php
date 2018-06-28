@@ -87,7 +87,7 @@ class HomeController extends Controller
         }
     }
 
-    public function __taka()
+    public function taka()
     {
         return view('taka.taka', [
             'user' => $user,
