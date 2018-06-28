@@ -93,9 +93,7 @@ class HomeController extends Controller
 
     public function taka()
     {
-        return view('taka.taka', [
-            'user' => $user,
-    ]);
+        return view('taka.taka');
         
     }
     public function jitsu(){
