@@ -41,7 +41,7 @@
                 <p>おジャ魔女メグミ</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="{{ route('test') }}"><img class="icon" src="images/icon5.png" alt=""></a>
+                <a href="{{ route('zakio.get') }}"><img class="icon" src="images/icon5.png" alt=""></a>
                 <p>御富士掲示板</p>
               </div>
             </div>
