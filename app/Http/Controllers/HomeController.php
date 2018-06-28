@@ -48,6 +48,16 @@ class HomeController extends Controller
         }
     }
 
+    public function megumi($id)
+    {
+         $user = User::find($id);
+
+        return view('home', [
+            'user' => $user,
+        ]);
+    }
+
+
 
     /**
      * ファイルアップロード処理
