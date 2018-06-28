@@ -48,6 +48,16 @@ class HomeController extends Controller
         }
     }
 
+    public function megumi($id)
+    {
+         $user = User::find($id);
+
+        return view('megumi', [
+            'user' => $user,
+        ]);
+    }
+
+
 
     /**
      * ファイルアップロード処理
@@ -80,6 +90,7 @@ class HomeController extends Controller
                 ->withErrors(['file' => '画像がアップロードされていないか不正なデータです。']);
         }
     }
+
     public function __taka()
     {
         return view('taka.taka', [
@@ -87,4 +98,17 @@ class HomeController extends Controller
     ]);
         
     }
+    public function jitsu(){
+      return view('jitsu.jitsu');
+    }
+
+    public function minami(){
+        $minami = $yasashisa + $love;
+        return $minami;
+    }
+    
+    public function zakichan(){
+        return view('user.zakichan');
+    }
+
 }
