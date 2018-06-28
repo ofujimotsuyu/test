@@ -48,13 +48,9 @@ class HomeController extends Controller
         }
     }
 
-    public function megumi($id)
+    public function megumi()
     {
-         $user = User::find($id);
-
-        return view('megumi', [
-            'user' => $user,
-        ]);
+        return view('megumi.megumi');
     }
 
 

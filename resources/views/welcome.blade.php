@@ -37,7 +37,7 @@
                 <p>Weather-Funami</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="#"><img class="icon" src="images/icon4.png" alt=""></a>
+                <a href="{{ route('megumi') }}"><img class="icon" src="images/icon4.png" alt=""></a>
                 <p>おジャ魔女メグミ</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <div class="column col-xs-12 caption">
-                        <a href="#"><span class="text"><p>おジャ魔女メグミ</p></span><img src="images/tara2.jpg"></a>
+                        <a href="{{ route('megumi') }}"><span class="text"><p>おジャ魔女メグミ</p></span><img src="images/tara2.jpg"></a>
                     </div>
                 </div>
             </div>
