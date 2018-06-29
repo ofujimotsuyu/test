@@ -25,7 +25,7 @@
                 <p>Jits-News</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="{{ route('minami') }}"><img class="icon" src="images/icon1.png" alt=""></a>
+                <a href="{{ route('cafe.get') }}"><img class="icon" src="images/icon1.png" alt=""></a>
                 <p>Cafe-Minami</p>
               </div>
               <div class="col-xs-6 col-sm-4 col-md-2">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="row">
                     <div class="column col-xs-12 caption">
-                        <a href="{{ route('minami') }}"><span class="text"><p>Cafe-Minami</p></span><img src="images/tara1.jpg"></a>
+                        <a href="{{ route('cafe.get') }}"><span class="text"><p>Cafe-Minami</p></span><img src="images/tara1.jpg"></a>
                     </div>
                 </div>
                 <div class="row">

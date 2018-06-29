@@ -230,3 +230,7 @@ footer {
 .media-body{
     vertical-align: middle;
 }
+
+.cafe img{
+    width: 300px;
+}
