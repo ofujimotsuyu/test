@@ -87,7 +87,7 @@ class CafeController extends Controller
                 'cafemenus' => $cafemenus,
             ];
             
-            return view('contents.cafe_menu', $data)->with('success', '保存しました。');
+            return redirect('/cafe');
         } else {
             return redirect()
                 ->back()
@@ -100,10 +100,9 @@ class CafeController extends Controller
     {
         $cafemenu = Cafemenu::find($id);
 
-        if (\Auth::user()->id === $cafemenu->user_id) {
+        if (\Auth::user()->id == 5) {
             $cafemenu->delete();
         }
-
         return redirect()->back();
     }
     
